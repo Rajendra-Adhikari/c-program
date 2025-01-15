@@ -1,3 +1,4 @@
+//write a function that printd Namaste if user is Nepalese and Bonjour if the user is French
 #include<stdio.h>
 void namaste();
 void bonjour();
