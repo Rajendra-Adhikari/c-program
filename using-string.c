@@ -14,3 +14,4 @@ printf("%c",arr[i]);
 }
 printf("\n");
 }
+//'0'is null which finish a string
