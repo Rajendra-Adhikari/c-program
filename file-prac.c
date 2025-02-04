@@ -25,3 +25,12 @@ int main(){
     fclose(fptr);
     return 0;
 }
+//for run all word 
+//after fopen: char ch;
+//ch =fgetc(fptr)
+//while (ch != EOF){
+// printf("%c",ch);
+// ch =fgetc(fptr);}
+// printf("\n");
+// fclose(fptr);
+// return 0;
