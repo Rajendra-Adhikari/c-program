@@ -23,4 +23,5 @@ int main(){
         printf("%d\n",ptr[i]);
 }
 return 0;
+free(ptr);
 }
