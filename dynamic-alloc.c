@@ -1,0 +1,27 @@
+//write a program to allocate memory of size m,where n is enter by the user
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    int *ptr;
+    int n;
+    printf("enter n :");
+    scanf("%d",&n);
+
+    ptr =(int *)calloc(n,sizeof(int));
+
+    for (int i =0; i<n;i++){
+        printf("%d\n",ptr[i]);
+    }
+
+    free(ptr); //using free()function
+
+    ptr =(int *)calloc(2,sizeof(int)); //new  allocate
+    
+    for (int i =0; i<2;i++){
+        printf("%d\n",ptr[i]);
+    }
+
+    return 0;
+}
+

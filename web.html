@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e8f5fe;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 700px;
+        }
+
+        .form-section {
+            width: 50%;
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        .form-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #444;
+            text-transform: capitalize;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: capitalize;
+        }
+
+        .form-section button:hover {
+            background-color: #357ab8;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .links a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .social-login {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .social-login img {
+            width: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #4a90e2;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <div class="form-section">
+            <div class="header"></div>
+            <h2>Log in</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <div class="links">
+                    <a href="#">Forget password?</a>
+                </div>
+                <button>Log in your account</button>
+            </form>
+            <div class="social-login">
+                <p>Log in with</p>
+                <img src="google-icon.png" alt="Google">
+                <img src="facebook-icon.png" alt="Facebook">
+            </div>
+            <div class="links">
+                <p>New user? <a href="#">Create account</a></p>
+            </div>
+        </div>
+
+        <!-- Sign Up Section -->
+        <div class="form-section">
+            <div class="header"></div>
+            <h2>Create New Account</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button>Create account</button>
+            </form>
+            <div class="links">
+                <p>Already a user? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

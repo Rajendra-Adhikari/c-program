@@ -1,0 +1,3 @@
+student name: sundar
+student age: 18
+student cgpa: 3.780000
