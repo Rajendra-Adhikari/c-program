@@ -11,7 +11,7 @@ int main(){
     }
     str[i] ='\0';//telling compiler that it is string as due to  %c compiler cannot auto know that
     puts(str);
-    printf("hello");
+    printf("hello world");
     return 0;
     
 }
